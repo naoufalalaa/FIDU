@@ -51,6 +51,15 @@ body{
 .uk-overlay-primary{
     background-color: rgba(244, 70, 70, 0.9);
 }
+.uk-navbar-not-transparent-danger{
+    background-color: rgba(244, 70, 70, 1)!important;
+}
 .theme-compatible{
     color: rgba(244, 70, 70, 0.9);
+}
+.uk-textarea,.uk-input{
+    border-radius: 15px;
+}
+.uk-theme{
+    background-color: rgba(244, 70, 70, 0.9)!important;
 }

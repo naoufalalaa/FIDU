@@ -8,9 +8,9 @@
 <body>
 
     <div align="center" class="uk-secondary uk-padding-small">
-        <button class="uk-button uk-button-danger"><small>Announcements !</small></button> <small>Welcome be ready for a brand new Adventure time on our website!</small>
+        <button class="uk-button uk-button-danger"><small>Announcements !</small></button> <small>Get ready for a brand new Adventure on our website!</small>
     </div>
-    <nav class=" uk-visible@m uk-navbar-container uk-navbar-dark uk-light" uk-navbar="mode: click; offset:0">
+    <nav class="uk-visible@m uk-navbar-container uk-navbar-dark uk-light" uk-sticky="animation: uk-animation-slide-top; sel-target: #nav; cls-active: uk-navbar-not-transparent-danger nabs uk-light uk-navbar-sticky ; cls-inactive: uk-navbar-not-transparent-danger uk-light; top: 300" uk-navbar="mode: click; offset:0">
 
         <div class="uk-margin-large-left uk-navbar-left">
             <a href="">
@@ -67,6 +67,7 @@
     </nav>
     <div id="nav" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
+
             <div class="uk-text-center">
                 <img  src="./assets/img/FIDU1.png" width="150px"  alt="">
             </div>
@@ -82,7 +83,7 @@
                         <li><a href="#">Domiciliation</a></li>
                     </ul>
                 </li>
-                <li>Blog Entrepreneur</li>
+                <li><a href="#">Blog Entrepreneur</a></li>
                 <li class="uk-nav-divider"></li>
                 <li class="uk-parent">
                     <a href="#">S'inscrire</a>
@@ -128,45 +129,47 @@
     
     </div>
 
-
     <div align="center">
-        <div class="uk-width-5-6 uk-margin-large-top uk-child-width-expand@s uk-text-center" uk-grid>
-            <div>
-                <div class="uk-card uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
-                    <div class="uk-padding-small uk-position-top-left">    
-                        <h3>01 .</h3>
-                    </div>
-                    <div>
-                        <h3>AXEAXEAXE</h3>
-                    </div>
-                    <div class="uk-padding-small uk-text-right uk-position-bottom-right">
-                        <small>Small explanationSmall explanationSmall explanationSmall explanationSmall explanationSmall explanation</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
-                    <div class="uk-padding-small uk-position-top-left">    
-                        <h3>02 .</h3>
-                    </div>
-                    <div>
-                        <h3>AXEAXEAXE</h3>
-                    </div>
-                    <div class="uk-padding-small uk-text-right uk-position-bottom-right">
-                        <small>Small explanationSmall explanationSmall explanationSmall explanationSmall explanationSmall explanation</small>
+        <div class="uk-flex-center uk-width-5-6 uk-margin-large-top">
+            <h3 class="uk-text-left">Notre plateforme en chiffres : </h3>
+            <div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center uk-grid-large" uk-grid="parallax : 150" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                <div>
+                    <div class="uk-card uk-box-shadow-medium uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
+                        <div class="uk-padding-small uk-position-top-left">    
+                            <h3>01 .</h3>
+                        </div>
+                        <div>
+                            <h3>+21</h3>
+                        </div>
+                        <div class="uk-padding-small uk-text-right uk-position-bottom-right">
+                            <h6>Entreprises</h6>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div class="uk-card uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
-                    <div class="uk-padding-small uk-position-top-left">    
-                        <h3>03 .</h3>
+                <div>
+                    <div class="uk-card uk-box-shadow-medium uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
+                        <div class="uk-padding-small uk-position-top-left">    
+                            <h3>02 .</h3>
+                        </div>
+                        <div>
+                            <h3>+2001</h3>
+                        </div>
+                        <div class="uk-padding-small uk-text-right uk-position-bottom-right">
+                            <h6>Fiduciaires</h6>
+                        </div>
                     </div>
-                    <div>
-                        <h3>AXEAXEAXE</h3>
-                    </div>
-                    <div class="uk-padding-small uk-text-right uk-position-bottom-right">
-                        <small>Small explanationSmall explanationSmall explanationSmall explanationSmall explanationSmall explanation</small>
+                </div>
+                <div>
+                    <div class="uk-card uk-box-shadow-medium uk-padding-large uk-box-shadow-hover-xlarge uk-card-secondary uk-card-body">
+                        <div class="uk-padding-small uk-position-top-left">    
+                            <h3>03 .</h3>
+                        </div>
+                        <div>
+                            <h3>+2022</h3>
+                        </div>
+                        <div class="uk-padding-small uk-text-right uk-position-bottom-right">
+                            <h6>Total utilisateurs</h6>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -174,6 +177,23 @@
     </div>
 
 
+    <div align="center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f44646e6" fill-opacity="1" d="M0,224L1440,160L1440,320L0,320Z"></path></svg>
+        <div class="uk-theme">
+            <div class="uk-child-width-expand@s uk-width-5-6 uk-text-center" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 500; repeat: true">
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f44646e6" fill-opacity="1" d="M0,224L1440,160L1440,0L0,0Z"></path></svg>
+    </div>
     
 
 
@@ -185,6 +205,12 @@
                 </div>
                 <div class="uk-width-3-5@m uk-width-2-3@s">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quidem itaque impedit fugit eaque beatae at asperiores fuga culpa voluptatum ipsam atque error hic, nihil recusandae, nostrum adipisci neque. Soluta!</p>
+                    <form action="">
+                        <input class="uk-margin uk-input" name="email" type="email" placeholder="Votre E-mail"><br>
+                        <textarea class="uk-textarea" name="message" placeholder="Votre commentaire"></textarea>
+                        <br>
+                        <button class="uk-button uk-margin uk-button-danger uk-flex-right">Envoyer</button>
+                    </form>
                 </div>
                 <div class="uk-width-1-5@m uk-width-1-3@s uk-text-center uk-text-left@s">
                     <ul class="uk-list uk-list-divider">
@@ -200,7 +226,7 @@
             <small>Copyright © Naoufal ALAA</small>
         </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/components/parallax.min.js" integrity="sha512-MGyLEw3Pg0p4kkhtKenaQC+kuu1/6qDIBS8jpJbRea2kw6Zf92gfg6blceLq23aAkSTTmDgQBvPkA6ZtR122wQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit.min.js" integrity="sha512-OSTRfXHexzhPF8VccjHh1s3/9nXkvzZVoctPeA6YGPYhaPoVEwXvXd74IuiwpUTp/OpIoMqm5dEgX9W2xK+ICg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit-icons.min.js" integrity="sha512-pCn4YSCG+11Nq6MHxgcmh6IpaSMYbuJmXahX7AWINvUYXpK0yWQGGGeGBiGU23wLfnqEfnSC0+JKYdHdD8Xlsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
