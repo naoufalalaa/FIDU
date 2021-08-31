@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title> FIDU </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/css/uikit.min.css" integrity="sha512-hM2N+uBhNm4nz5YZaKRNT48DLZuvGslKiGKl0MWpVD6DWudgUd5ghNVN20A9moDLhLdsqbUt3YKp2s6ZeQRiGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link  href="./assets/css/style.css" rel="stylesheet" >
+    <link rel="shortcut icon" href="./assets/img/FIDUico.ico"/>
+</head>
+<body>
+
+    <div align="center" class="uk-secondary uk-padding-small">
+        <button class="uk-button uk-button-danger"><small>Announcements !</small></button> <small>Welcome be ready for a brand new Adventure time on our website!</small>
+    </div>
+    <nav class=" uk-visible@m uk-navbar-container uk-navbar-dark uk-light" uk-navbar="mode: click; offset:0">
+
+        <div class="uk-margin-large-left uk-navbar-left">
+            <a href="">
+                <img src="./assets/img/FIDUVer.png" width="150px" alt="">
+            </a>
+        </div>
+
+        <div class="uk-navbar-center">
+    
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Action Entreprise <span uk-icon="icon: chevron-down"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Créer votre Entreprise</a></li>
+                            <li><a href="#">Plan Comptable</a></li>
+                            <li><a href="#">Déménagement siège</a></li>
+                            <li><a href="#">Domiciliation</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Blog Entrepreneur</a></li>
+            </ul>
+    
+        </div>
+
+        <div class="uk-margin-large-right uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">S'inscrire <span uk-icon="icon: chevron-down"></span></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Entrepreneur</a></li>
+                            <li><a href="#">Fiduciaire</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <nav class="uk-navbar uk-navbar-dark uk-light uk-navbar-container uk-hidden@m">
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-toggle" uk-toggle="target: #nav" href="#">
+                <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+            </a>
+        </div>
+        <div class="uk-navbar-center">
+            <a href="#">
+                <img src="./assets/img/FIDU1.png" width="100px" alt="">
+            </a>
+        </div>
+    </nav>
+    <div id="nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <div class="uk-text-center">
+                <img  src="./assets/img/FIDU1.png" width="150px"  alt="">
+            </div>
+            
+            <ul class="uk-nav uk-margin-xlarge-top uk-nav-default">
+                <li class="uk-active"><a href="#">Home</a></li>
+                <li class="uk-parent">
+                    <a href="#">Action Entreprise</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Créer votre Entreprise</a></li>
+                        <li><a href="#">Plan Comptable</a></li>
+                        <li><a href="#">Déménagement siège</a></li>
+                        <li><a href="#">Domiciliation</a></li>
+                    </ul>
+                </li>
+                <li>Blog Entrepreneur</li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-parent">
+                    <a href="#">S'inscrire</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Entrepreneur</a></li>
+                        <li><a href="#">Fiduciaire</a></li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </div>
+    </div>  
+
+
+    <div class="uk-position-relative uk-box-shadow-xlarge uk-visible-toggle uk-light" tabindex="-1"  uk-slideshow="autoplay: true;min-height: 300; max-height: 400">
+
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="./assets/img/p4.jpg" alt="" uk-cover>
+                <div class="uk-position-bottom-left uk-position-small uk-text-left">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
+                    <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/img/p2.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
+                    <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </li>
+            <li>
+                <img src="./assets/img/p3.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
+                    <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    
+    </div>
+
+
+
+
+    <footer class="uk-text-center uk-margin-large-top">
+        <div class="uk-padding-small footer">
+            <div class="uk-text-left" uk-grid>
+                <div class="uk-text-center uk-width-1-5@m">
+                    <img src="./assets/img/FIDU-black.png" width="100px" alt="">
+                </div>
+                <div class="uk-width-3-5@m uk-width-2-3@s">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quidem itaque impedit fugit eaque beatae at asperiores fuga culpa voluptatum ipsam atque error hic, nihil recusandae, nostrum adipisci neque. Soluta!</p>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-3@s uk-text-center uk-text-left@s">
+                    <ul class="uk-list uk-list-divider">
+                        <li><span uk-icon="icon: github"></span><small> GitHub : <small>@naoufalalaa</small></small></li>
+                        <li><span uk-icon="icon: whatsapp"></span><small> Whatsapp : <small>+212 622-975-254</small></small></li>
+                        <li><span uk-icon="icon: facebook"></span><small> Facebook : <small>Naoufal ALAA</small></small></li>
+                        <li><span uk-icon="icon: instagram"></span><small> Instagram : <small>@heevenly_made</small></small></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot uk-bg-dark">
+            <small>Copyright © Naoufal ALAA</small>
+        </div>
+    </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit.min.js" integrity="sha512-OSTRfXHexzhPF8VccjHh1s3/9nXkvzZVoctPeA6YGPYhaPoVEwXvXd74IuiwpUTp/OpIoMqm5dEgX9W2xK+ICg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit-icons.min.js" integrity="sha512-pCn4YSCG+11Nq6MHxgcmh6IpaSMYbuJmXahX7AWINvUYXpK0yWQGGGeGBiGU23wLfnqEfnSC0+JKYdHdD8Xlsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
