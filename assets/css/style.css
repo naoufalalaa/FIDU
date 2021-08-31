@@ -48,3 +48,9 @@ body{
 .foot{
     padding: 5px
 }
+.uk-overlay-primary{
+    background-color: rgba(244, 70, 70, 0.9);
+}
+.theme-compatible{
+    color: rgba(244, 70, 70, 0.9);
+}
