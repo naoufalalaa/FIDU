@@ -63,3 +63,6 @@ body{
 .uk-theme{
     background-color: rgba(244, 70, 70, 0.9)!important;
 }
+.uk-card-default-trans {
+    background-color: rgba(255, 255, 255, 0.8);
+}
